@@ -15,6 +15,10 @@
 		ECE3DAF01C3FB98200877CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE3DAEE1C3FB98200877CFC /* LaunchScreen.storyboard */; };
 		ECE3DAFB1C3FB98200877CFC /* GHBDrawBoarderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DAFA1C3FB98200877CFC /* GHBDrawBoarderTests.m */; };
 		ECE3DB061C3FB98200877CFC /* GHBDrawBoarderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DB051C3FB98200877CFC /* GHBDrawBoarderUITests.m */; };
+		ECE3DB1C1C3FB99B00877CFC /* GHBDrawBoarderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DB151C3FB99B00877CFC /* GHBDrawBoarderView.m */; };
+		ECE3DB1D1C3FB99B00877CFC /* GHBMyDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DB171C3FB99B00877CFC /* GHBMyDrawer.m */; };
+		ECE3DB1E1C3FB99B00877CFC /* GHBPaintPath.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DB191C3FB99B00877CFC /* GHBPaintPath.m */; };
+		ECE3DB1F1C3FB99B00877CFC /* GHBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DB1B1C3FB99B00877CFC /* GHBScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		ECE3DB011C3FB98200877CFC /* GHBDrawBoarderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHBDrawBoarderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE3DB051C3FB98200877CFC /* GHBDrawBoarderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBDrawBoarderUITests.m; sourceTree = "<group>"; };
 		ECE3DB071C3FB98200877CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE3DB141C3FB99B00877CFC /* GHBDrawBoarderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBDrawBoarderView.h; sourceTree = "<group>"; };
+		ECE3DB151C3FB99B00877CFC /* GHBDrawBoarderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBDrawBoarderView.m; sourceTree = "<group>"; };
+		ECE3DB161C3FB99B00877CFC /* GHBMyDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBMyDrawer.h; sourceTree = "<group>"; };
+		ECE3DB171C3FB99B00877CFC /* GHBMyDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBMyDrawer.m; sourceTree = "<group>"; };
+		ECE3DB181C3FB99B00877CFC /* GHBPaintPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBPaintPath.h; sourceTree = "<group>"; };
+		ECE3DB191C3FB99B00877CFC /* GHBPaintPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBPaintPath.m; sourceTree = "<group>"; };
+		ECE3DB1A1C3FB99B00877CFC /* GHBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBScrollView.h; sourceTree = "<group>"; };
+		ECE3DB1B1C3FB99B00877CFC /* GHBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		ECE3DADF1C3FB98200877CFC /* GHBDrawBoarder */ = {
 			isa = PBXGroup;
 			children = (
+				ECE3DB131C3FB99B00877CFC /* GHBDrawBoarderView */,
 				ECE3DAE31C3FB98200877CFC /* AppDelegate.h */,
 				ECE3DAE41C3FB98200877CFC /* AppDelegate.m */,
 				ECE3DAE61C3FB98200877CFC /* ViewController.h */,
@@ -138,6 +151,21 @@
 				ECE3DB071C3FB98200877CFC /* Info.plist */,
 			);
 			path = GHBDrawBoarderUITests;
+			sourceTree = "<group>";
+		};
+		ECE3DB131C3FB99B00877CFC /* GHBDrawBoarderView */ = {
+			isa = PBXGroup;
+			children = (
+				ECE3DB141C3FB99B00877CFC /* GHBDrawBoarderView.h */,
+				ECE3DB151C3FB99B00877CFC /* GHBDrawBoarderView.m */,
+				ECE3DB161C3FB99B00877CFC /* GHBMyDrawer.h */,
+				ECE3DB171C3FB99B00877CFC /* GHBMyDrawer.m */,
+				ECE3DB181C3FB99B00877CFC /* GHBPaintPath.h */,
+				ECE3DB191C3FB99B00877CFC /* GHBPaintPath.m */,
+				ECE3DB1A1C3FB99B00877CFC /* GHBScrollView.h */,
+				ECE3DB1B1C3FB99B00877CFC /* GHBScrollView.m */,
+			);
+			path = GHBDrawBoarderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE3DB1C1C3FB99B00877CFC /* GHBDrawBoarderView.m in Sources */,
+				ECE3DB1F1C3FB99B00877CFC /* GHBScrollView.m in Sources */,
+				ECE3DB1D1C3FB99B00877CFC /* GHBMyDrawer.m in Sources */,
 				ECE3DAE81C3FB98200877CFC /* ViewController.m in Sources */,
 				ECE3DAE51C3FB98200877CFC /* AppDelegate.m in Sources */,
 				ECE3DAE21C3FB98200877CFC /* main.m in Sources */,
+				ECE3DB1E1C3FB99B00877CFC /* GHBPaintPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
