@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECE3DAE21C3FB98200877CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DAE11C3FB98200877CFC /* main.m */; };
+		ECE3DAE51C3FB98200877CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DAE41C3FB98200877CFC /* AppDelegate.m */; };
+		ECE3DAE81C3FB98200877CFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DAE71C3FB98200877CFC /* ViewController.m */; };
+		ECE3DAEB1C3FB98200877CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE3DAE91C3FB98200877CFC /* Main.storyboard */; };
+		ECE3DAED1C3FB98200877CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE3DAEC1C3FB98200877CFC /* Assets.xcassets */; };
+		ECE3DAF01C3FB98200877CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE3DAEE1C3FB98200877CFC /* LaunchScreen.storyboard */; };
+		ECE3DAFB1C3FB98200877CFC /* GHBDrawBoarderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DAFA1C3FB98200877CFC /* GHBDrawBoarderTests.m */; };
+		ECE3DB061C3FB98200877CFC /* GHBDrawBoarderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3DB051C3FB98200877CFC /* GHBDrawBoarderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECE3DAF71C3FB98200877CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE3DAD51C3FB98100877CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE3DADC1C3FB98200877CFC;
+			remoteInfo = GHBDrawBoarder;
+		};
+		ECE3DB021C3FB98200877CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE3DAD51C3FB98100877CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE3DADC1C3FB98200877CFC;
+			remoteInfo = GHBDrawBoarder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECE3DADD1C3FB98200877CFC /* GHBDrawBoarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHBDrawBoarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE3DAE11C3FB98200877CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE3DAE31C3FB98200877CFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECE3DAE41C3FB98200877CFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECE3DAE61C3FB98200877CFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECE3DAE71C3FB98200877CFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECE3DAEA1C3FB98200877CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECE3DAEC1C3FB98200877CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECE3DAEF1C3FB98200877CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECE3DAF11C3FB98200877CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE3DAF61C3FB98200877CFC /* GHBDrawBoarderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHBDrawBoarderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE3DAFA1C3FB98200877CFC /* GHBDrawBoarderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBDrawBoarderTests.m; sourceTree = "<group>"; };
+		ECE3DAFC1C3FB98200877CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE3DB011C3FB98200877CFC /* GHBDrawBoarderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHBDrawBoarderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE3DB051C3FB98200877CFC /* GHBDrawBoarderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBDrawBoarderUITests.m; sourceTree = "<group>"; };
+		ECE3DB071C3FB98200877CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE3DADA1C3FB98200877CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE3DAF31C3FB98200877CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE3DAFE1C3FB98200877CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECE3DAD41C3FB98100877CFC = {
+			isa = PBXGroup;
+			children = (
+				ECE3DADF1C3FB98200877CFC /* GHBDrawBoarder */,
+				ECE3DAF91C3FB98200877CFC /* GHBDrawBoarderTests */,
+				ECE3DB041C3FB98200877CFC /* GHBDrawBoarderUITests */,
+				ECE3DADE1C3FB98200877CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE3DADE1C3FB98200877CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE3DADD1C3FB98200877CFC /* GHBDrawBoarder.app */,
+				ECE3DAF61C3FB98200877CFC /* GHBDrawBoarderTests.xctest */,
+				ECE3DB011C3FB98200877CFC /* GHBDrawBoarderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE3DADF1C3FB98200877CFC /* GHBDrawBoarder */ = {
+			isa = PBXGroup;
+			children = (
+				ECE3DAE31C3FB98200877CFC /* AppDelegate.h */,
+				ECE3DAE41C3FB98200877CFC /* AppDelegate.m */,
+				ECE3DAE61C3FB98200877CFC /* ViewController.h */,
+				ECE3DAE71C3FB98200877CFC /* ViewController.m */,
+				ECE3DAE91C3FB98200877CFC /* Main.storyboard */,
+				ECE3DAEC1C3FB98200877CFC /* Assets.xcassets */,
+				ECE3DAEE1C3FB98200877CFC /* LaunchScreen.storyboard */,
+				ECE3DAF11C3FB98200877CFC /* Info.plist */,
+				ECE3DAE01C3FB98200877CFC /* Supporting Files */,
+			);
+			path = GHBDrawBoarder;
+			sourceTree = "<group>";
+		};
+		ECE3DAE01C3FB98200877CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE3DAE11C3FB98200877CFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE3DAF91C3FB98200877CFC /* GHBDrawBoarderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE3DAFA1C3FB98200877CFC /* GHBDrawBoarderTests.m */,
+				ECE3DAFC1C3FB98200877CFC /* Info.plist */,
+			);
+			path = GHBDrawBoarderTests;
+			sourceTree = "<group>";
+		};
+		ECE3DB041C3FB98200877CFC /* GHBDrawBoarderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE3DB051C3FB98200877CFC /* GHBDrawBoarderUITests.m */,
+				ECE3DB071C3FB98200877CFC /* Info.plist */,
+			);
+			path = GHBDrawBoarderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE3DADC1C3FB98200877CFC /* GHBDrawBoarder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE3DB0A1C3FB98200877CFC /* Build configuration list for PBXNativeTarget "GHBDrawBoarder" */;
+			buildPhases = (
+				ECE3DAD91C3FB98200877CFC /* Sources */,
+				ECE3DADA1C3FB98200877CFC /* Frameworks */,
+				ECE3DADB1C3FB98200877CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHBDrawBoarder;
+			productName = GHBDrawBoarder;
+			productReference = ECE3DADD1C3FB98200877CFC /* GHBDrawBoarder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE3DAF51C3FB98200877CFC /* GHBDrawBoarderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE3DB0D1C3FB98200877CFC /* Build configuration list for PBXNativeTarget "GHBDrawBoarderTests" */;
+			buildPhases = (
+				ECE3DAF21C3FB98200877CFC /* Sources */,
+				ECE3DAF31C3FB98200877CFC /* Frameworks */,
+				ECE3DAF41C3FB98200877CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE3DAF81C3FB98200877CFC /* PBXTargetDependency */,
+			);
+			name = GHBDrawBoarderTests;
+			productName = GHBDrawBoarderTests;
+			productReference = ECE3DAF61C3FB98200877CFC /* GHBDrawBoarderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECE3DB001C3FB98200877CFC /* GHBDrawBoarderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE3DB101C3FB98200877CFC /* Build configuration list for PBXNativeTarget "GHBDrawBoarderUITests" */;
+			buildPhases = (
+				ECE3DAFD1C3FB98200877CFC /* Sources */,
+				ECE3DAFE1C3FB98200877CFC /* Frameworks */,
+				ECE3DAFF1C3FB98200877CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE3DB031C3FB98200877CFC /* PBXTargetDependency */,
+			);
+			name = GHBDrawBoarderUITests;
+			productName = GHBDrawBoarderUITests;
+			productReference = ECE3DB011C3FB98200877CFC /* GHBDrawBoarderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE3DAD51C3FB98100877CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = haibin;
+				TargetAttributes = {
+					ECE3DADC1C3FB98200877CFC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ECE3DAF51C3FB98200877CFC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECE3DADC1C3FB98200877CFC;
+					};
+					ECE3DB001C3FB98200877CFC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECE3DADC1C3FB98200877CFC;
+					};
+				};
+			};
+			buildConfigurationList = ECE3DAD81C3FB98100877CFC /* Build configuration list for PBXProject "GHBDrawBoarder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECE3DAD41C3FB98100877CFC;
+			productRefGroup = ECE3DADE1C3FB98200877CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE3DADC1C3FB98200877CFC /* GHBDrawBoarder */,
+				ECE3DAF51C3FB98200877CFC /* GHBDrawBoarderTests */,
+				ECE3DB001C3FB98200877CFC /* GHBDrawBoarderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE3DADB1C3FB98200877CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE3DAF01C3FB98200877CFC /* LaunchScreen.storyboard in Resources */,
+				ECE3DAED1C3FB98200877CFC /* Assets.xcassets in Resources */,
+				ECE3DAEB1C3FB98200877CFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE3DAF41C3FB98200877CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE3DAFF1C3FB98200877CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE3DAD91C3FB98200877CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE3DAE81C3FB98200877CFC /* ViewController.m in Sources */,
+				ECE3DAE51C3FB98200877CFC /* AppDelegate.m in Sources */,
+				ECE3DAE21C3FB98200877CFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE3DAF21C3FB98200877CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE3DAFB1C3FB98200877CFC /* GHBDrawBoarderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE3DAFD1C3FB98200877CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE3DB061C3FB98200877CFC /* GHBDrawBoarderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE3DAF81C3FB98200877CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE3DADC1C3FB98200877CFC /* GHBDrawBoarder */;
+			targetProxy = ECE3DAF71C3FB98200877CFC /* PBXContainerItemProxy */;
+		};
+		ECE3DB031C3FB98200877CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE3DADC1C3FB98200877CFC /* GHBDrawBoarder */;
+			targetProxy = ECE3DB021C3FB98200877CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECE3DAE91C3FB98200877CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE3DAEA1C3FB98200877CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECE3DAEE1C3FB98200877CFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE3DAEF1C3FB98200877CFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE3DB081C3FB98200877CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECE3DB091C3FB98200877CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE3DB0B1C3FB98200877CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHBDrawBoarder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHBDrawBoarder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECE3DB0C1C3FB98200877CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHBDrawBoarder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHBDrawBoarder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECE3DB0E1C3FB98200877CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GHBDrawBoarderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHBDrawBoarderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHBDrawBoarder.app/GHBDrawBoarder";
+			};
+			name = Debug;
+		};
+		ECE3DB0F1C3FB98200877CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GHBDrawBoarderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHBDrawBoarderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHBDrawBoarder.app/GHBDrawBoarder";
+			};
+			name = Release;
+		};
+		ECE3DB111C3FB98200877CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GHBDrawBoarderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHBDrawBoarderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHBDrawBoarder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECE3DB121C3FB98200877CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GHBDrawBoarderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.GHBDrawBoarderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHBDrawBoarder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE3DAD81C3FB98100877CFC /* Build configuration list for PBXProject "GHBDrawBoarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE3DB081C3FB98200877CFC /* Debug */,
+				ECE3DB091C3FB98200877CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE3DB0A1C3FB98200877CFC /* Build configuration list for PBXNativeTarget "GHBDrawBoarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE3DB0B1C3FB98200877CFC /* Debug */,
+				ECE3DB0C1C3FB98200877CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECE3DB0D1C3FB98200877CFC /* Build configuration list for PBXNativeTarget "GHBDrawBoarderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE3DB0E1C3FB98200877CFC /* Debug */,
+				ECE3DB0F1C3FB98200877CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECE3DB101C3FB98200877CFC /* Build configuration list for PBXNativeTarget "GHBDrawBoarderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE3DB111C3FB98200877CFC /* Debug */,
+				ECE3DB121C3FB98200877CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE3DAD51C3FB98100877CFC /* Project object */;
+}
